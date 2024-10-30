@@ -15,7 +15,7 @@ module.exports.checkSession = (req, res, next) => {
         }
 
     //busca el usuario y verifica que este verified en true
-      User.findOne({_id: userId,verified: true})  
+      User.findOne({_id: userId,verified: true,active: true})  
       .then((user) => {
             if (!user) {
                 return res.status(401).json("Unauthorized");

@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"Steven\",\r\n    \"email\":\"stevengazu@hotmail.com\",\r\n    \"password\": \"1234352\",\r\n    \"bio\":\"Bio\"\r\n}",
+							"raw": "{\r\n    \"name\": \"Steven\",\r\n    \"email\":\"stevengazu@hotmail.com\",\r\n    \"password\": \"123435762\",\r\n    \"bio\":\"Bio\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
